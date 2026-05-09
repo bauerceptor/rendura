@@ -2,7 +2,7 @@ package internal
 
 import (
 	_ "embed"
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 )
 
 //go:embed "icons.png"

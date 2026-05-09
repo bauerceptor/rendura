@@ -10,7 +10,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 )
 
 // CaptureOrErr captures a screenshot and saves it to the temporary directory.

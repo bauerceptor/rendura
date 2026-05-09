@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	"github.com/bauerceptor/rendura/rendura_debug"
 	"github.com/bauerceptor/rendura/rendura_gui"
 )

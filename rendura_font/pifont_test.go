@@ -5,7 +5,7 @@ import (
 	"github.com/bauerceptor/rendura/rendura_test_helpers"
 	"testing"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	"github.com/bauerceptor/rendura/rendura_font"
 )
 

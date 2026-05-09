@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/bauerceptor/rendura"                // import core package
+	"github.com/bauerceptor/rendura/pkg/rendura"                // import core package
 	"github.com/bauerceptor/rendura/rendura_cofont" // import very small pico-8 font
 	"github.com/bauerceptor/rendura/rendura_ebiten" // import backend
 )

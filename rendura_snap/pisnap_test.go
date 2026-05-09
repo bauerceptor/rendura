@@ -4,7 +4,7 @@ import (
 	"image"
 	"testing"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	"github.com/bauerceptor/rendura/rendura_snap"
 	"github.com/stretchr/testify/assert"
 )

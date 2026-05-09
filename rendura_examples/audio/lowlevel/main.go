@@ -8,7 +8,7 @@ import (
 	_ "embed"
 	"log"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	"github.com/bauerceptor/rendura/rendura_audio"
 	"github.com/bauerceptor/rendura/rendura_cofont"
 	"github.com/bauerceptor/rendura/rendura_ebiten"

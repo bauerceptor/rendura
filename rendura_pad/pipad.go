@@ -58,7 +58,7 @@ import (
 
 	"github.com/bauerceptor/rendura/internal/input"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	pievent "github.com/bauerceptor/rendura/rendura_event"
 )
 

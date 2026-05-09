@@ -1,7 +1,7 @@
 package input_test
 
 import (
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	"github.com/bauerceptor/rendura/internal/input"
 	"github.com/stretchr/testify/assert"
 	"testing"

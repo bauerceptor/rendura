@@ -4,7 +4,7 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	"github.com/bauerceptor/rendura/rendura_snap"
 	"github.com/bauerceptor/rendura/rendura_test_helpers"
 	"github.com/stretchr/testify/require"

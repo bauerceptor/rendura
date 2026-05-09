@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	"github.com/bauerceptor/rendura/rendura_ebiten"
 	"github.com/bauerceptor/rendura/rendura_ebiten/internal/ebitentesting"
 	"github.com/stretchr/testify/assert"

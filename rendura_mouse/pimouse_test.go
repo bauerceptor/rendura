@@ -3,7 +3,7 @@ package rendura_mouse_test
 import (
 	"testing"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	"github.com/bauerceptor/rendura/rendura_mouse"
 	"github.com/stretchr/testify/assert"
 )

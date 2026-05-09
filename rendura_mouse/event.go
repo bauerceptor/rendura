@@ -1,7 +1,7 @@
 package rendura_mouse
 
 import (
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	pievent "github.com/bauerceptor/rendura/rendura_event"
 )
 

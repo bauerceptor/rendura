@@ -9,7 +9,7 @@
 package main
 
 import (
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	"github.com/bauerceptor/rendura/rendura_cofont"
 	"github.com/bauerceptor/rendura/rendura_ebiten"
 	"github.com/bauerceptor/rendura/rendura_gui"

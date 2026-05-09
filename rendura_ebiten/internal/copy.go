@@ -3,7 +3,7 @@ package internal
 import (
 	"github.com/hajimehoshi/ebiten/v2"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 )
 
 func CopyCanvasToEbitenImage(canvas rendura.Canvas, dst *ebiten.Image) {

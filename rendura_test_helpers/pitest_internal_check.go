@@ -3,7 +3,7 @@ package rendura_test_helpers
 import (
 	"testing"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	"github.com/stretchr/testify/assert"
 )
 

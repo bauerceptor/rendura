@@ -7,7 +7,7 @@ package rendura_cofont
 import (
 	_ "embed"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	pifont "github.com/bauerceptor/rendura/rendura_font"
 )
 

@@ -2,7 +2,7 @@
 package rendura_scope
 
 import (
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	"github.com/bauerceptor/rendura/rendura_scope/internal"
 )
 

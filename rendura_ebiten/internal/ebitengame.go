@@ -9,7 +9,7 @@ import (
 
 	"github.com/hajimehoshi/ebiten/v2"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	piaudio "github.com/bauerceptor/rendura/rendura_audio"
 	pidebug "github.com/bauerceptor/rendura/rendura_debug"
 	pievent "github.com/bauerceptor/rendura/rendura_event"

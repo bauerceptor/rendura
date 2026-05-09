@@ -1,6 +1,6 @@
 package input
 
-import "github.com/bauerceptor/rendura"
+import "github.com/bauerceptor/rendura/pkg/rendura"
 
 type State[T comparable] struct {
 	pressedInputs map[T]*pressedInput

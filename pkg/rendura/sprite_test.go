@@ -3,7 +3,7 @@ package rendura_test
 import (
 	"testing"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 )
 
 func TestStretch(t *testing.T) {

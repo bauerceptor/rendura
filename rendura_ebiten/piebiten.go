@@ -18,7 +18,7 @@ import (
 	"github.com/bauerceptor/rendura/rendura_ebiten/internal/audio"
 	"strconv"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	piaudio "github.com/bauerceptor/rendura/rendura_audio"
 	"github.com/bauerceptor/rendura/rendura_ebiten/internal"
 )

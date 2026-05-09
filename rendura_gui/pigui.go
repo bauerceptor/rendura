@@ -4,7 +4,7 @@ package rendura_gui
 import (
 	"slices"
 
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	pimouse "github.com/bauerceptor/rendura/rendura_mouse"
 )
 

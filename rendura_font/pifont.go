@@ -3,7 +3,7 @@
 package rendura_font
 
 import (
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 )
 
 // Sheet is a character sheet used for rendering text.

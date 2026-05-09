@@ -1,7 +1,7 @@
 package input
 
 import (
-	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/pkg/rendura"
 	"github.com/hajimehoshi/ebiten/v2"
 )
 
