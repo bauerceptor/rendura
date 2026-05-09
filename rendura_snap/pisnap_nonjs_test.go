@@ -1,0 +1,34 @@
+//go:build !js
+
+package rendura_snap_test
+
+import (
+	"bytes"
+	"image"
+	"image/png"
+	"os"
+	"testing"
+
+	"github.com/bauerceptor/rendura"
+	"github.com/bauerceptor/rendura/rendura_snap"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+)
+
+func TestCaptureOrErr(t *testing.T) {
+	// when
+	file, err := rendura_snap.CaptureOrErr()
+	// then
+	require.NoError(t, err)
+	assert.NotEmpty(t, file)
+	// and file exists
+	f, err := os.ReadFile(file)
+	require.NoError(t, err, "cannot read PNG file")
+	// and
+	img, err := png.Decode(bytes.NewReader(f))
+	require.NoError(t, err, "file is not a valid PNG")
+	// and
+	palettedImage, ok := img.(*image.Paletted)
+	require.True(t, ok, "image is not a Paletted")
+	assertPalettedImage(t, palettedImage, rendura.Screen())
+}
