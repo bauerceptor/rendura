@@ -2,7 +2,7 @@
 
 <img src="docs/logo.svg" width="64" height="64" align="left" alt="rendura logo"/>
 
-A game engine written in Go from scratch. No external graphics libraries — just Go, with Ebitengine as a backend reference.
+A simple game engine written in Go from scratch. No external graphics libraries — just Go, with Ebitengine as a backend reference.
 
 Inspired by Pico-8 and TIC-80. Built to understand how game engines actually work.
 
