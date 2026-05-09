@@ -1,8 +1,8 @@
-# Pixelforge Studio - Game Development Guide
+# Rendura Studio - Game Development Guide
 
-## What is Pixelforge Studio?
+## What is Rendura Studio?
 
-Pixelforge Studio is a visual editor for creating retro 2D games using the Pixelforge game engine. It provides a GUI (graphical user interface) where you can:
+Rendura Studio is a visual editor for creating retro 2D games. It provides a GUI where you can:
 - Import and view sprite images
 - Place sprites on a scene canvas
 - Manage game objects
@@ -13,7 +13,7 @@ Pixelforge Studio is a visual editor for creating retro 2D games using the Pixel
 ### 1. Launch the Studio
 
 ```bash
-go run ./pixelforge_studio
+go run ./rendura_studio
 ```
 
 This opens a 1280x800 window with:
@@ -25,7 +25,7 @@ This opens a 1280x800 window with:
 
 ### 2. Loading Sprites
 
-The studio automatically scans the `pixelforge_examples` folder on startup and loads any PNG images it finds. These include:
+The studio automatically scans the `rendura_examples` folder on startup and loads any PNG images it finds. These include:
 - Sprites from the Snake game example
 - Sprites from the Shapes example
 - Other PNG files in example folders
@@ -82,13 +82,13 @@ The exported game will include Update and Draw functions:
 ```go
 func update() {
     // Handle input
-    if pixelforge_key.Duration(pixelforge_key.Left) > 0 {
+    if rendura_key.Duration(rendura_key.Left) > 0 {
         // Move player left
     }
 }
 
 func draw() {
-    pixelforge.Screen().Clear(0)
+    rendura.Screen().Clear(0)
     // Draw your sprites
 }
 ```
@@ -129,7 +129,7 @@ go run .
 2. **Use Retro Resolution**: The default 320x180 gives authentic retro feel
 3. **Organize Sprites**: Keep your sprite sheets organized (8x8, 16x16 frames)
 4. **Test Often**: Export and run frequently to catch issues early
-5. **Check Examples**: Look at the pixelforge_examples folder for code patterns
+5. **Check Examples**: Look at the rendura_examples folder for code patterns
 
 ## Keyboard Shortcuts Summary
 
@@ -145,7 +145,7 @@ go run .
 ## Troubleshooting
 
 **Q: No sprites showing in left panel**
-A: Ensure PNG files are in the pixelforge_examples folder
+A: Ensure PNG files are in the rendura_examples folder
 
 **Q: Can't place sprites**
 A: Make sure you have a sprite selected in the left panel, then use Place tool (P)
@@ -155,9 +155,9 @@ A: Use Select tool (V), click object, then drag
 
 ## Next Steps
 
-- Read the main Pixelforge README for engine documentation
-- Check example games in pixelforge_examples folder
+- Read the main Rendura README for engine documentation
+- Check example games in rendura_examples folder
 - Experiment with different sprite sheets
-- Add audio with pixelforge_audio package
+- Add audio with rendura_audio package
 
 Happy game building!

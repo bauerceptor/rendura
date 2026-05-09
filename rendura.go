@@ -1,7 +1,7 @@
-// Package pixelforge provides the core rendura functions for the game loop,
+// Package rendura provides the core functions for the game loop,
 // screen, color palette, and drawing pixels, shapes, and sprites.
 //
-// This package and all other pixelforge_* packages are not thread-safe.
+// This package and all other rendura_* packages are not thread-safe.
 // This is an intentional design choice to significantly improve performance.
 // You should not call rendura's API from any goroutine other than the one
 // running your `rendura.Update` and `rendura.Draw` functions. You can still
